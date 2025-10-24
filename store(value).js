@@ -1,3 +1,5 @@
+"use strict";
+
 function store(value) {
   return function() {
     return value;
