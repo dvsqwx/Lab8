@@ -1,3 +1,5 @@
+"use strict";
+
 function contract(fn, ...types) {
   return function(...args) {
     const argTypes = types.slice(0, -1);
