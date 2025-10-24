@@ -1,3 +1,5 @@
+"use strict";
+
 function iterate(object, callback) {
   for (const key in object) {
     const value = object[key];
